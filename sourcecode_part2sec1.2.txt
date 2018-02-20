@@ -1,0 +1,52 @@
+part2_sec1(2).aspx.vb earlier [source code]
+
+'Imports System
+'Imports System.Data
+
+''Imports System.Data.SqlClient
+
+''Inherits System.Web.UI.Page
+    ''Dim conn As New connect
+
+''conn.dbconnect()
+        ''Dim userid_temp1 = Session("userid_temp")
+        ''Dim query As String = "SELECT * from emp_info where Username = '" & userid_temp1 & "' "
+        ''Dim query As String = "Insert into Two_B"
+        ''Dim sqlcommand As New SqlCommand(query, conn.con)
+        ''Dim da As New SqlDataAdapter(sqlcommand)
+        ''Dim ds = New DataSet
+        ''da.Fill(ds)
+
+''Response.Redirect("part2_sec1.aspx")
+
+'Dim str As String
+        'str = " "
+        'If CheckBox1.Checked = True Then
+        '  str &= CheckBox1.Text
+        '   str &= " "
+        'End If
+        'If CheckBox2.Checked = True Then
+        '  str &= CheckBox2.Text
+        '   str &= " "
+        'End If
+        'If CheckBox3.Checked = True Then
+        '  str &= CheckBox3.Text
+        '   str &= " "
+        'End If
+        'If CheckBox4.Checked = True Then
+        '  str &= CheckBox4.Text
+        '   str &= " "
+        'End If
+        'If str <> Nothing Then
+        '    MsgBox(str + vbLf + "Thank You")
+        ' End If
+        ''end if
+
+        ''Response.Write(str)
+
+
+
+'Protected gv_chkbox()
+    'For each row as gridview1.rows
+    'If row.rowtype = datacontrolrowtype.datarow then
+
